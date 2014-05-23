@@ -83,6 +83,6 @@
         android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/btnOK"
         android:layout_marginTop="88dp"
-        android:text="名前表示" />
+        android:text="Large Text" />
 
 </RelativeLayout>
