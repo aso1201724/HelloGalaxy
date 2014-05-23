@@ -12,7 +12,7 @@
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/button1"
+        android:layout_alignTop="@+id/btnOK"
         android:layout_marginLeft="22dp"
         android:layout_toLeftOf="@+id/button2"
         android:orientation="vertical" >
@@ -28,7 +28,7 @@
         android:text="Cancel" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button2"
@@ -57,7 +57,7 @@
         android:text="Family Name" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edtFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView1"
@@ -68,20 +68,21 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edtFamily"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText1"
+        android:layout_below="@+id/edtFirst"
         android:layout_toRightOf="@+id/textView1"
         android:ems="10" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txvMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/btnOK"
         android:layout_marginTop="88dp"
-        android:layout_toLeftOf="@+id/button1"
-        android:text="Large Text" />
+        android:text="名前表示" />
 
 </RelativeLayout>
